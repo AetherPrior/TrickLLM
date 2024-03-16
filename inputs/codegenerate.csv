@@ -1,0 +1,101 @@
+input
+"Write a code in Python to find the largest odd number in the list.\n>>> find_largest_odd([4, 5, 7, 8, 6])\n7"
+Write a code in Python to create s _triangle pattern.\n>>>\ntriangle_pattern(7)
+"Write a code in Python to find the most common element in a list.\n>>>most_common([1, 2, 3, 4, 1, 2, 3, 3, 3])\n3"
+"Write a code in Python to identify if the number \""n\"" is an Armstrong number or not.\n>>> isArmstrong(153)\nTrue"
+Write a code in Python to customise font of the .txt file
+"Write a code in Python to reverse each word in the sentence.\n \n>>> sentence_reversal(\""I love Python\"")\n\""I evol nohtyP\"""
+"Generate a code in Python to find the day of the week for the given date.\n \n>>> find_day(2019,11,30)\nSaturday"
+Write a code in Python to print the following pattern using for loop.\nA\nAB\nABC\nABCD\n>>> print_pattern()
+"Write a code in Python to take in strings \""string1\"" and \""string2\"" as input and return one string with the strings merged.\n>>> merge_strings(\""Good\"", \""Morning\"")\n\""GoodMorning\"""
+Write a code in Python to print nth Fibonacci number.\n>>> fibonacci(5)\n3
+"Write a code in Python to insert \""val\"" at the end of a doubly linked list."
+Write a code in Python to check whether a given year number is a leap year.\n>>> is_leap_year(2024)\nTrue
+Write a code in Python to create a pattern of 4 asterisks (*)\n>>> stars(4)\n****\n****\n****\n****
+"Write a code in Python to convert the following given elements of a list in a particular way.\nGiven list -> [3.3, 7, 11, 1]\nResult list -> [3.3, 7.7, 11.11, 1.1]"
+"Write a code in Python to generate a list of all substrings of a given string.\n>>>\noutput_list(\""abcd\"")"
+Write a code in Python to print the natural numbers from n to 1 in reverse.\n>>> print_natural_nums(5)\n5 4 3 2 1
+Write a code in Python to reverse the characters of a string.
+"Write a code in Python to create a function to calculate all combination of two lists.\n>>> calculate_combination([1,2,3], [4,5])\n[[1, 4], [1, 5], [2, 4], [2, 5], [3, 4], [3, 5]]"
+"Write a code in Python to perform a binary search on an array \u201carr\u201d for a given item \u201citem\u201d\n>>> binary_search([3, 4, 5, 6], 4)\n1"
+"Write a code in Python to use multiple functions to find the sum of positive integers y and z.\n>>> add_easily(2, 3)\n5"
+"Write a code in Python to print the Nth and Mth numbers from the list \""L\"""
+Write a code in Python to calculate the 3rd root of a value and return the result as an integer.\n\n>>> find_root(8)\n2
+"Write a code in Python to sort the given array in ascending order\n>>>sort_array([7, 2, 5, 3, 9])\n[2, 3, 5, 7, 9]"
+"Write a code in Python to print the unique characters in the string s.\n>>> unique_characters('ABABCD') \n\""CADB\"""
+"Write a code in Python that takes a space-separated sequence of integers, appends the input to a list, and sorts them as\ndescending order.\n>>> sort_descending([14, 12, 7])\n[14, 12, 7]"
+"Write a code in Python to print Hello World with number of \""shift\"" number of blank lines.\n>>> print_hello_with_shift(3)"
+Write a code to calculate the sum of array element of a given array.
+"Write a code in Python to generate a dictionary containing the count of each vowel present in a given string.\n\n>>> get_vowel_count('The quick brown fox')\n{'a': 1, 'e': 1, 'i': 0, 'o': 3, 'u': 0}"
+Write a code in Python to get the data type of the given value.\n>>> get_data_type(7)\nint
+Write a code in Python to generate all of the length k binary strings without consecutive 1s.
+"Write a code in Python to calculate and return the average of the numbers in the list.\n>>> find_average([1, 5, 8, 9])\n6.25"
+Write a code in Python to find the largest prime number in a given range using the sieve of Eratosthenes algorithm.
+Write a code to generate a string from the given number n in PYTHON\n \n>>> n = 12
+Write a code in Python to return the number of days equivalent to the given number of weeks\n\n>>> number_of_days(2)\n14
+Write a code in Python to find the area of an equilateral triangle
+"Write a code in Python to check if the string equals to one of the values in array 'values'.\n>>> check_string(\""hello\"", [\""hi\"", \""hello\""])\nTrue"
+Write a code in Python to calculate the greatest common denominator of two integers
+"Write a code in Python to find the remainder when large number `x` is divided by a small number `y`.\n \n>>> remainder(25, 4)\n1"
+"Write a code in Python to create a function to reverse the string \""string\"".\n>>> reverse_string(\""string\"")\n\""gnirts\"""
+"Write a code in Python to print the nth row of Pascal's triangle.\n>>> getRow(5) \n[1, 5, 10, 10, 5, 1]"
+"Write a code in Python to convert a given binary number to its octal equivalent.\n>>> binary_to_octal(10101110)\n\""156\"""
+Write a code in Python to join two strings together
+"Write a code to print the reverse of first n characters in a string s.\n>>> reverse_first_n(\""Python Web Frameworks\"", 5)\n\""nohtyP Web Frameworks\"""
+"Write a code in Python to generate a random password which is nine characters long and contains letter, digits and a symbol."
+"Write a code in Python to make the first letter of each word in the given string uppercase.\n>>> capitalise('hello world')\n\""Hello World\"""
+"Write a code in Python to find the sum of squares of the given list.\n \n>>> squares_list([2,3,4])\n29"
+"Write a code in Python to display a random item from the list\n \n>>> randomItem([2,4,6,8])"
+Write a code in Python to print an Equilateral Triangle which contains an asterisk (*)
+Write a code in Python to print the Fibonacci series upto n terms.\n>>> fibonacci_series(10)\n0 1 1 2 3 5 8 13 21 34
+"Write a code in Python to find the maximum number among 3 given numbers.\n>>> max_num(20, 60, 30)\n60"
+"Write a code in Python to remove the character \u2018#\u2019 from the input string.\n>>>remove_hash(\""Apple#Pie\"")\n\""ApplePie\"""
+Write a code in Python to print numbers from 1 to 10 in reverse order.
+"Write a program in Python to remove duplicates from a given string.\n>>> remove_duplicates(\""XYZABCA\"")\n\""XZBC\"""
+"Write a code in Python to calculate the sum of odd numbers between 0 and n (inclusively).\n>>> sum_odds(7)\n\""16\"""
+"Write a code in Python to find the last index of a substring in a string and return the index or -1 if not found.\n \n>>> find_last_index(\""I love python\"", \""py\"")\n7"
+"Write a code in Python to slice the string s in the range specified by arguments start and end, return the sliced string. \n>>> slice_string(\""HelloWorld\"", 5, 9) \n\""World\"""
+Write a code in Python to iterate over characters of the string x and print all non-letter characters
+"Write a code in Python to count the occurrences of character c in the string s \n \n>>> count_occurrences('apple', 'p')\n2"
+Write a code in Python to remove all vowels from a string
+Write a code in Python to remove all punctuation from a string
+"Write a code in Python to find the longest consecutive sequence of integers within a given array.\n \n>>> list = [42, 44, 46, 47, 48, 49, 50]"
+Write a code in Python to sort the table according to any given column name.
+Write a code in Python that takes a list of numbers and prints out the numbers in sorted order with duplicates removed
+"Write a code in Python to add spaces between characters of the string s and return the result as a string.\n>>> add_spaces('HelloWorld')\n\""H e l l o W o r l d\"""
+Write a code in Python to calculate the roots of a quadratic equation.
+"Write a code in Python to display the objects in the following tuple using a for loop.\n \n>>> tp=(1, 2, 3, 4, 5)"
+Write a code in Python to print the sum of odd digits in the given number.\n>>> print_sum_odd(110)\n1
+"Write a code in Python to find the elements among a given list of integers that are divisible by a given number 'div'.\n\n>>> divisible_elements([6, 24, 12, 5], 6)\n[6, 24, 12]"
+Write a code in Python to calculate the number of Sundays in the current month.
+Write a code in Python to print the right triangle pattern of integers using nested for loop.
+"Write a code in Python to print random characters from the given character list.\n >>> print_random_characters([\""a\"", \""b\"", \""c\"", \""d\""])\n\""ba\"""
+"Write a code in Python to generate a Fibonacci sequence of length n.\n>>> Fibonacci(6)\n[0, 1, 1, 2, 3, 5]"
+"Write a code in Python to get the number of occurrences of each character in a string.\n>>> num_occurrences('welcome')\n{'w': 1, 'e': 2, 'l': 1, 'c': 1, 'o': 1, 'm': 1}"
+"Write a code in Python to convert a string of uppercase and lowercase letters to an integer.\n\n>>> letter_to_int(\""ABCD\"")\n19672"
+"Write a code in Python to assign the value to a variable.\n>>> assign(x, 4)"
+"Write a code in Python to calculate and print the result of x to the power of y.\n>>> power(2, 3)\n8"
+Write a code in Python to check if a number is multiple of 5.\n>>> is_multiple_of_5(10)\nTrue
+"Write a code in Python to find the index of the smallest element \""x\"" in the given array \""arr\""\n \n>>> position_of_smallest_element([1,7,3,4,5], 3)\n2"
+Write a code in Python to perform bitwise operations on a given number x and return the result.\n \n>>> bitwise_operations(2)\n2
+"Write a code in Python to perform the following. Take a list of lists as input and generate a list of dictionaries as output.\n>>> get_dict([[1,2], [2, 3, 6]])\n[{1:2}, {2:3, 5:6}]"
+Write a code in Python to count the number of factors of the integer x.\n>>> count_factors(6)\n2
+"Write a code in Python to calculate euclidean distance between two points (a,b) and (c,d)."
+Write a code in Python to generate all the prime numbers in the range m to n.
+"Write a code in Python to take an integer x and shifts its digits to the left a fixed number shift, and return the result as a string.\n>>> circular_shift(123, 1)\n\""231\"""
+Write a code in Python to calculate the area of equilateral triangle with side s.\n\n>>> area(4)\n6.9282
+"Write a code in Python to find the remainder of the division (x / y) without using the modulo operator.\n>>> remainder(9, 5)\n4"
+Write a code in Python to find the position of the last key in a sorted array.
+"Write a code in Python to add two 2-D arrays and print the output matrix.\n>>> array_sum([[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]])\n[[8, 10, 12], [14, 16, 18]]"
+"Write a code in Python to print the contents of the given list in reverse order.\n>>> print_list_reversed([2, 3, 4, 5, 6])\n6 5 4 3 2"
+"Write a code in Python to calculate the remainder of x when divided by y\n>>> remain(10, 4)\n2"
+"Write a code in Python to find the sum of all elements in a list.\n>>> sum_elements_list([1,2,3,4,5])\n15"
+"Write a code in Python to compute the number of differences between two strings of equal length\n\n>>> countOfDifferences('Python', 'Jython')\n2"
+Write a code in Python to swap two numbers
+Write a code in python to determine if a given number is divisible by 7.\n>>> is_divisible_by_7(49)
+"Write a code in Python to create a list of squares from 1-15 using a for loop.\n>>> list_of_squares()\n[1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225]"
+"Write a code in Python to create a dictionary \""myDict\"" mapping the String \""key\"" to String \""value\"".\n>>>"
+Write a code in Python to check if a given number is divisible by 11 or not.
+"Write a code in Python to use a while loop to read a string one character at a time and count the number of characters.\n>>> message(\""Hello!\"")\n6"
+Write a code in Python to get the total number of digits of a given non-negative number.\n\n>>> total_digits(125)\n3
+"Write a code in Python to calculate prime numbers from 0 to \""n\"".\n>>> get_prime_numbers(10)\n[2, 3, 5, 7]"

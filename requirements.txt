@@ -1,0 +1,14 @@
+ray
+tqdm
+cppyy
+numpy
+torch
+langid
+openai
+pandas
+openpyxl
+evaluate
+accelerate
+transformers
+sentencepiece
+tiktoken
