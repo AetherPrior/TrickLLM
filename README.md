@@ -95,9 +95,9 @@ of jailbreak detection in terms of their effectiveness against known attacks. Fo
 ```
 # Data  
 
-Manual evaluations present (here)[./src/eval/attackmetrics/manual/V2/tsvs/all_models_mod.tsv]  
-Model outputs: Refer (this file)[./outputs/processed/README.md] to get the drive link. Make sure that you place all files in the `outputs/processed` directory.
-
+- Manual evaluations present [here](https://github.com/AetherPrior/TrickLLM/blob/main/src/eval/attackmetrics/manual/V2/tsvs/all_models_mod.tsv)  
+- Model outputs: Refer to [this folder](https://github.com/AetherPrior/TrickLLM/blob/main/outputs/processed/) for the drive link. Make sure that you place all files in the `outputs/processed` directory.
+- GPT-4 test outputs: Refer to [this folder](https://github.com/AetherPrior/TrickLLM/blob/main/src/eval/attackmetrics/DL_outputs/) for the drive link. Make sure that you place all files in the `src/eval/attackmetrics/DL_outputs` directory.
 # Installation 
 ## Cloning and installation
 ```
@@ -127,6 +127,6 @@ Scripts for property tests and GPT-4 tests are present in the `eval` directory. 
 - `GPT4_test_analysis.py` script is used to get the attack success rates for GPT-4 tests.
 
 ### Contributors
-[Abhinav Rao](https://github.com/Aetherprior)
-[Sachin Vashishta](https://github.com/SachinVashisth)
-[Atharva Naik](https://github.com/atharva-naik/)
+- [Abhinav Rao](https://github.com/Aetherprior)  
+- [Sachin Vashishta](https://github.com/SachinVashisth)  
+- [Atharva Naik](https://github.com/atharva-naik/)  

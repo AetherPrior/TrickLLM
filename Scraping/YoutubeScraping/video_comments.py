@@ -13,7 +13,7 @@ totalCommentsDict = {}
 api_service_name = "youtube"
 api_version = "v3"
 # This key needs to be generated using Youtube Data API v3
-DEVELOPER_KEY = "AIzaSyDYUgKVQYrbeVaO9gvMDOhbNvtzNGN_2hc"
+DEVELOPER_KEY = "****"
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey = DEVELOPER_KEY)
 
