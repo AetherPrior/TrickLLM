@@ -1,8 +1,9 @@
 # TrickLLM
 This repository contains the code for the paper "Tricking LLMs into Disobedience: Formalizing, Analyzing, and Detecting Jailbreaks" by Abhinav Rao, Sachin Vashishta*, Atharva Naik*, Somak Aditya, and Monojit Choudhury, accepted at LREC-CoLING 2024  
-[Link to the paper](https://arxiv.org/abs/2305.14965)
 
-# Abstract
+[![arXiv](https://img.shields.io/badge/arXiv-2305.14965-b31b1b.svg)](https://arxiv.org/abs/2305.14965)  
+
+### Abstract
 Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak
 LLMs by simply manipulating their prompts; resulting in degenerate output behavior, privacy and security breaches,
 offensive outputs, and violations of content regulator policies. Limited studies have been conducted to formalize
@@ -11,7 +12,7 @@ known (and possible) jailbreaks. We survey existing jailbreak methods and their 
 commercial LLMs (such as GPT-based models, OPT, BLOOM, and FLAN-T5-XXL). We further discuss the challenges
 of jailbreak detection in terms of their effectiveness against known attacks. For further analysis, we release a dataset of model outputs across 3700 jailbreak prompts over 4 tasks.
 
-# Directory structure
+### Directory structure
 ```
 ├── alpa
 ├── attacks                                 # contains the attacks
@@ -93,40 +94,45 @@ of jailbreak detection in terms of their effectiveness against known attacks. Fo
         └── t-sne_visualization.ipynb
 
 ```
-# Data  
+### Data  
 
 - Manual evaluations present [here](https://github.com/AetherPrior/TrickLLM/blob/main/src/eval/attackmetrics/manual/V2/tsvs/all_models_mod.tsv)  
 - Model outputs: Refer to [this folder](https://github.com/AetherPrior/TrickLLM/blob/main/outputs/processed/) for the drive link. Make sure that you place all files in the `outputs/processed` directory.
 - GPT-4 test outputs: Refer to [this folder](https://github.com/AetherPrior/TrickLLM/blob/main/src/eval/attackmetrics/DL_outputs/) for the drive link. Make sure that you place all files in the `src/eval/attackmetrics/DL_outputs` directory.
-# Installation 
-## Cloning and installation
+### Installation 
+#### Cloning
 ```
-git clone --recurse-submodules git@github.com:Aetherprior/TrickLLM.git 
-cd TrickLLM
-python -m venv /path/to/venv
-pip install -r requirements.txt 
+$ git clone --recurse-submodules git@github.com:Aetherprior/TrickLLM.git 
+$ cd TrickLLM
+$ python -m venv /path/to/venv
+$ pip install -r requirements.txt 
 ```
-## Sering OPT-175B
+#### Serving OPT-175B
 Serving the OPT-175B model requires the installation of the `alpa` library. Use the `alpa` submodule to install the library and the examples for inference.  
 ```
-cd alpa && pip install . && cd examples && pip install .
+$ cd alpa && pip install . && cd examples && pip install .
 ```
+Unfortunately, you will need a clone of **OPT weights**. The conversion step to obtain them in a consolidated form is highly inefficient and takes 700+ gigs of RAM for some reason. For obvious reasons, we do not have the weights with us You may download the outputs from the drive link instead.  
+#### Setup Ray to inference OPT-175B
+The `alpa` library requires `ray` to be set up on your GPU node(s) for inference. Please run the `./ray_setup.sh` script after adding your **path to the venv** and **IP addresses of your nodes** in the script
 
-## Setup Ray to inference OPT-175B
-The `alpa` library requires `ray` to be setup on your GPU node(s) for inference. Please run the `./ray_setup.sh` script after adding your **path to the venv** and **IP addresses of your nodes** in the script
 
+### Model Inference
+Each model can be run using the following command:  
+```
+$ python -m src.model.<model_name>
+``` 
 
-# Model Inference
-Each model can be run using the following command:
-``` python -m src.model.<model_name>``` 
-
-# Evaluation
+### Evaluation
 Scripts for property tests and GPT-4 tests are present in the `eval` directory. The `attackmetrics` directory contains the scripts for the property tests
 - The `get_prop_test_stats.py` script is used to get the attack success rates for programmatic tests.
 - `GPT4_test.py` script is used to conduct the GPT-4 tests.
 - `GPT4_test_analysis.py` script is used to get the attack success rates for GPT-4 tests.
 
 ### Contributors
-- [Abhinav Rao](https://github.com/Aetherprior)  
-- [Sachin Vashishta](https://github.com/SachinVashisth)  
-- [Atharva Naik](https://github.com/atharva-naik/)  
+- [Abhinav Rao](https://github.com/Aetherprior)  - attack prompts, OPT, FLAN, GPT model inferencing code, manual result analysis, property-test and GPT-4 test & analysis
+- [Sachin Vashishta](https://github.com/SachinVashisth)*  - Youtube Scraping, T-SNE experiments, Propmptsource for base prompts
+- [Atharva Naik](https://github.com/atharva-naik/)*  - Base model and BLOOM inferencing code + prompt structuring, Reddit Scraping
+- [Somak Aditya](https://github.com/adityaSomak) - Project Advisor
+- [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/) - Project Advisor
+
