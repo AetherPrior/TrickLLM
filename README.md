@@ -130,8 +130,8 @@ Scripts for property tests and GPT-4 tests are present in the `eval` directory. 
 - `GPT4_test_analysis.py` script is used to get the attack success rates for GPT-4 tests.
 
 ### Contributors
-- [Abhinav Rao](https://github.com/Aetherprior)  - attack prompts, OPT, FLAN, GPT model inferencing code, manual annotations and analysis, property-test and GPT-4 test & analysis
-- [Sachin Vashishta](https://github.com/SachinVashisth)*  - Youtube Scraping, T-SNE experiments, BLOOM inferencing code, Base prompts collection using Promptsource, manual annotations.
+- [Abhinav Rao](https://github.com/Aetherprior)  - Attack prompts, OPT, FLAN, GPT model inferencing code, manual annotations and analysis, property-test and GPT-4 test & analysis
+- [Sachin Vashishta](https://github.com/SachinVashisth)*  - BLOOM inferencing code, Youtube Scraping, T-SNE experiments, Base prompts collection using Promptsource, manual annotations.
 - [Atharva Naik](https://github.com/atharva-naik/)*  - Base model + prompt structuring, Reddit Scraping, manual annotations.
 - [Somak Aditya](https://github.com/adityaSomak) - Project Advisor
 - [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/) - Project Advisor
