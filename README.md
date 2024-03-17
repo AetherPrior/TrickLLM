@@ -137,7 +137,7 @@ Scripts for property tests and GPT-4 tests are present in the `eval` directory. 
 - [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/) - Project Advisor
 
 #### Citation  
-If you find this work useful, please consider citing our paper:  
+If you find this work useful, do consider citing our paper:  
 
 ```
 @misc{rao2024tricking,
