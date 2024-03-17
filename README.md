@@ -112,7 +112,7 @@ Serving the OPT-175B model requires the installation of the `alpa` library. Use 
 ```
 $ cd alpa && pip install . && cd examples && pip install .
 ```
-Unfortunately, you will need a clone of **OPT weights**. The conversion step to obtain them in a consolidated form is highly inefficient and takes 700+ gigs of RAM for some reason. For obvious reasons, we do not have the weights with us You may download the outputs from the drive link instead.  
+Unfortunately, you will need a clone of [**OPT weights**](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT) . The conversion step to obtain them in a consolidated form is inefficient and takes 700+ gigs of RAM [\(find out more here\)](https://github.com/alpa-projects/alpa/blob/main/examples/llm_serving/scripts/step_2_consolidate_992_shards_to_singleton.py). You may download the outputs from the drive link instead.  
 #### Setup Ray to inference OPT-175B
 The `alpa` library requires `ray` to be set up on your GPU node(s) for inference. Please run the `./ray_setup.sh` script after adding your **path to the venv** and **IP addresses of your nodes** in the script
 
