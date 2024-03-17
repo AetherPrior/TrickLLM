@@ -136,3 +136,16 @@ Scripts for property tests and GPT-4 tests are present in the `eval` directory. 
 - [Somak Aditya](https://github.com/adityaSomak) - Project Advisor
 - [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/) - Project Advisor
 
+#### Citation  
+If you find this work useful, please consider citing our paper:  
+
+```
+@misc{rao2024tricking,
+      title={Tricking LLMs into Disobedience: Formalizing, Analyzing, and Detecting Jailbreaks}, 
+      author={Abhinav Rao and Sachin Vashistha and Atharva Naik and Somak Aditya and Monojit Choudhury},
+      year={2024},
+      eprint={2305.14965},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
