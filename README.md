@@ -1,5 +1,5 @@
 # TrickLLM
-This repository contains the code for the paper "Tricking LLMs into Disobedience: Formalizing, Analyzing, and Detecting Jailbreaks" by Abhinav Rao, Sachin Vashishta*, Atharva Naik*, Somak Aditya, and Monojit Choudhury, accepted at LREC-CoLING 2024  
+This repository contains the code for the paper "Tricking LLMs into Disobedience: Formalizing, Analyzing, and Detecting Jailbreaks" by Abhinav Rao, Sachin Vashistha*, Atharva Naik*, Somak Aditya, and Monojit Choudhury, accepted at LREC-CoLING 2024  
 
 [![arXiv](https://img.shields.io/badge/arXiv-2305.14965-b31b1b.svg)](https://arxiv.org/abs/2305.14965)  
 
