@@ -131,7 +131,7 @@ Scripts for property tests and GPT-4 tests are present in the `eval` directory. 
 
 ### Contributors
 - [Abhinav Rao](https://github.com/Aetherprior)  - Attack prompts, OPT, FLAN, GPT model inferencing code, manual annotations and analysis, property-test and GPT-4 test & analysis
-- [Sachin Vashistha](https://github.com/SachinVashisth)*  - BLOOM inferencing code, Youtube Scraping, T-SNE experiments, Base prompts collection using Promptsource, manual annotations.
+- [Sachin Vashistha](https://github.com/SachinVashisth)*  - BLOOM inferencing code, T-SNE experiments, Base prompts collection using Promptsource, manual annotations, Youtube Scraping.
 - [Atharva Naik](https://github.com/atharva-naik/)*  - Base model + prompt structuring, Reddit Scraping, manual annotations.
 - [Somak Aditya](https://github.com/adityaSomak) - Project Advisor
 - [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/) - Project Advisor
